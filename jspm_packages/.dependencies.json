@@ -158,5 +158,62 @@
   "npm:events@1.0.2": {},
   "npm:react-dom@0.14.6": {
     "react": "npm:react@^0.14.6"
-  }
+  },
+  "npm:react-markdown@1.2.2": {
+    "commonmark": "npm:commonmark@^0.22.0",
+    "commonmark-react-renderer": "npm:commonmark-react-renderer@^2.2.0",
+    "in-publish": "npm:in-publish@^2.0.0",
+    "react": "npm:react",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0"
+  },
+  "npm:in-publish@2.0.0": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:commonmark-react-renderer@2.2.0": {
+    "react": "npm:react"
+  },
+  "npm:entities@1.1.1": {
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0"
+  },
+  "npm:commonmark@0.22.1": {
+    "entities": "npm:entities@~1.1.1",
+    "mdurl": "npm:mdurl@~1.0.1",
+    "string.prototype.repeat": "npm:string.prototype.repeat@^0.2.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0"
+  },
+  "npm:string.prototype.repeat@0.2.0": {},
+  "npm:mdurl@1.0.1": {},
+  "npm:react-remarkable@1.1.1": {
+    "remarkable": "npm:remarkable@^1.4.1"
+  },
+  "npm:remarkable@1.6.1": {
+    "argparse": "npm:argparse@~0.1.15",
+    "autolinker": "npm:autolinker@~0.15.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:autolinker@0.15.3": {
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "child_process": "github:jspm/nodelibs-child_process@^0.1.0"
+  },
+  "npm:argparse@0.1.16": {
+    "underscore": "npm:underscore@~1.7.0",
+    "underscore.string": "npm:underscore.string@~2.4.0",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "util": "github:jspm/nodelibs-util@^0.1.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:underscore.string@2.4.0": {},
+  "npm:underscore@1.7.0": {},
+  "npm:node-markdown@0.1.1": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:marked@0.3.5": {},
+  "npm:fs@0.0.2": {}
 }

@@ -17,8 +17,13 @@ System.config({
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
+    "fs": "npm:fs@0.0.2",
+    "marked": "npm:marked@0.3.5",
+    "node-markdown": "npm:node-markdown@0.1.1",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
+    "react-markdown": "npm:react-markdown@1.2.2",
+    "react-remarkable": "npm:react-remarkable@1.1.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -49,12 +54,25 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:argparse@0.1.16": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "underscore": "npm:underscore@1.7.0",
+      "underscore.string": "npm:underscore.string@2.4.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "npm:asap@2.0.3": {
       "domain": "github:jspm/nodelibs-domain@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
+    },
+    "npm:autolinker@0.15.3": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:babel-runtime@5.8.34": {
       "process": "github:jspm/nodelibs-process@0.1.2"
@@ -67,6 +85,16 @@ System.config({
       "isarray": "npm:isarray@1.0.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:commonmark-react-renderer@2.2.0": {
+      "react": "npm:react@0.14.6"
+    },
+    "npm:commonmark@0.22.1": {
+      "entities": "npm:entities@1.1.1",
+      "mdurl": "npm:mdurl@1.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "string.prototype.repeat": "npm:string.prototype.repeat@0.2.0",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+    },
     "npm:core-js@1.2.6": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
@@ -78,6 +106,9 @@ System.config({
     },
     "npm:domain-browser@1.1.7": {
       "events": "github:jspm/nodelibs-events@0.1.1"
+    },
+    "npm:entities@1.1.1": {
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:envify@3.4.0": {
       "jstransform": "npm:jstransform@10.1.0",
@@ -96,6 +127,9 @@ System.config({
       "ua-parser-js": "npm:ua-parser-js@0.7.10",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
+    "npm:in-publish@2.0.0": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
@@ -113,6 +147,9 @@ System.config({
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
+    "npm:node-markdown@0.1.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -125,6 +162,17 @@ System.config({
     },
     "npm:react-dom@0.14.6": {
       "react": "npm:react@0.14.6"
+    },
+    "npm:react-markdown@1.2.2": {
+      "commonmark": "npm:commonmark@0.22.1",
+      "commonmark-react-renderer": "npm:commonmark-react-renderer@2.2.0",
+      "in-publish": "npm:in-publish@2.0.0",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@0.14.6"
+    },
+    "npm:react-remarkable@1.1.1": {
+      "remarkable": "npm:remarkable@1.6.1"
     },
     "npm:react@0.14.6": {
       "envify": "npm:envify@3.4.0",
@@ -140,6 +188,14 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:remarkable@1.6.1": {
+      "argparse": "npm:argparse@0.1.16",
+      "autolinker": "npm:autolinker@0.15.3",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:source-map@0.1.31": {
       "amdefine": "npm:amdefine@1.0.0",
